@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.header{
+    
+width: 100%;
+}
+header{
+
+width: 60%;
+
+margin: 10px auto;
+
+overflow: hidden;
+
+/* position: fixed; */
+}
+.logo{
+
+width: 20%;
+
+float: left;
+}
+.logo img{
+
+}
+nav{
+
+width: 35%;
+
+float: left;
+}
+nav ul{
+
+list-style: none;
+}
+nav ul li{
+
+float: left;
+
+margin-left: 15px;
+
+margin-top: 15px;
+}
+.purchase{
+
+float: right;
+
+/* margin-top: 15px; */
+}
+.purchase .btn{text-decoration: none;background: red;display: inline-block;color: white;font-size: 16px;padding: 10px;transition: 1s;border-radius: 5px;}
+.purchase .btn:hover{
+    color: red; background: white;border: red 1px solid;
+}
+.content{
+
+margin: 225px auto;
+
+width: 60%;
+
+overflow: hidden;
+}
+.left_content{
+
+width: 48%;
+
+float: left;
+}
+.left_content h1{
+    
+font-size: 40px;
+    
+margin: 15px 0;
+    
+text-transform: capitalize;
+}
+.left_content p{
+    
+color: #908d8d;
+    
+margin-bottom: 25px;
+}
+.left_content i{
+    
+color: #d2d1d1;
+    
+transition: 1s;
+    
+font-size: 35px;
+}
+.left_content i:hover{
+    color: white;
+    background:black;
+}
+.right_content{
+
+width: 48%;
+
+float: right;
+}
+.right_content img{
+
+width: 385px;
+}
+.demo{
+
+width: 95%;
+
+margin: 200px auto;
+
+overflow: hidden;
+
+text-align: center;
+}
+.stunning{
+
+width: 35%;
+
+margin: auto;
+}
+.stunning h1{
+    
+font-size: 35px;
+    
+margin: 10px;
+    
+text-transform: capitalize;
+}
+.stunning p{
+    
+margin-bottom: 25px;
+    
+color: #b7b7b7;
+}
+.classic{
+
+width: 22%;
+
+float: left;
+}
+.classic img{
+
+width: 285px;
+}
+.classic p{
+
+text-transform: capitalize;
+
+margin-top: 10px;
+}
+.shop{
+
+width: 22%;
+
+float: left;
+
+margin-left: 4%;
+}
+.shop img{
+
+width: 285px;
+}
+.shop p{
+
+text-transform: capitalize;
+
+margin-top: 10px;
+}
+.dark{
+
+width: 22%;
+
+margin-left: 4%;
+
+float: left;
+}
+.dark img{
+
+width: 285px;
+}
+.dark p{
+
+text-transform: capitalize;
+
+margin-top: 10px;
+}
+.minimal{
+
+width: 22%;
+
+float: left;
+
+margin-left: 4%;
+}
+.minimal img{
+
+width: 285px;
+}
+.minimal p{
+
+text-transform: capitalize;
+
+margin-top: 10px;
+}
+.feature{
+
+width: 66%;
+
+margin: 100px auto;
+
+text-align: center;
+}
+.features{
+
+width: 25%;
+
+margin: auto;
+}
+.features h1{
+
+text-transform: capitalize;
+
+font-size: 35px;
+}
+.features p{
+
+color: #b3b0b0;
+}
+.first_row{
+
+overflow: hidden;
+}
+.first_row ul{
+    
+list-style: none;
+}
+.first_row li{
+    
+width: 30%;
+    
+float: left;
+    
+margin: 1.5%;
+    
+background-color: #F5F5F5;
+    
+padding: 20px 1px;
+    
+border-radius: 10px;
+}
+.first_row i{
+    
+font-size: 25px;
+    
+color: red;
+    
+border: solid white;
+    
+border-radius: 100%;
+    
+width: 25px;
+    
+height: 25px;
+    
+padding: 10px;
+    
+background: white;
+transition: 1s;
+}
+.first_row i:hover{
+    color: white;
+    background:red;
+}
+.first_row h1{
+    
+font-size: 25px;
+    
+margin: 10px;
+    
+color: black;
+}
+.first_row p{
+    
+margin: 10px;
+    
+color: #9f9f9f;
+}
+footer{
+
+background-color: #292640;
+
+padding-top: 80px;
+
+padding-bottom: 25px;
+}
+.top{
+
+width: 30%;
+
+margin: auto;
+
+padding: 10px;
+}
+.top h1{
+
+text-align: center;
+
+color: white;
+
+font-size: 40px;
+}
+.pur{
+
+text-align: center;
+
+padding: 10px;
+
+}
+.pur .btn{text-decoration: none;background: red;display: inline-block;color: white;font-size: 16px;padding: 10px;transition: 1s;border-radius: 5px;}
+.pur .btn:hover{
+        color: red; background: white;border: red 1px solid;
+    }
+.bottom{
+
+/* width: 100%; */
+
+overflow: hidden;
+
+/* padding: 10px; */
+}
+.left_bottom{
+
+width: 48%;
+
+float: left;
+
+/* margin-left: 10%; */
+
+text-align: center;
+
+/* padding: 10px; */
+}
+.left_bottom img{
+    
+width: 30px;
+    
+/* padding: 3px 0; */
+    
+/* text-align: right; */
+    
+float: right;
+}
+.mid_bottom{
+    width: 40%;
+    float: left;
+    margin: 10px 3px;
+}
+.mid_bottom p{
+    
+font-size: 16px;
+    
+color: #94929f;
+    
+/* margin-bottom: 328px; */
+}
+.right_bottom{
+
+width: 100%;
+
+/* float: left; */
+
+padding-bottom: 15px;
+}
+.right_bottom i{
+    
+font-size: 40px;
+    
+float: right;
+    
+color: #94929F;
+transition: 1s;
+}
+.right_bottom i:hover{
+    color: white;
+}
